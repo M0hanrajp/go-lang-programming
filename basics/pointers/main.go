@@ -62,7 +62,7 @@ func ShortDecalarationOfPointer() {
 	fmt.Printf("What is the type of variable 'q' ? : %T\nWhat does q hold ?: %d\nWhat q points to ?: %s\n", q, q, *q)
 }
 
-func CallDecimal() int {
+func CallDecimalValue() int {
 	decimal := 9090
 	fmt.Printf("What is the type of decimal: %T\nvalue of decimal: %d\naddress of decimal: %d\n", decimal, decimal, &decimal)
 	return decimal
